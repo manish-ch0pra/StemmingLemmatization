@@ -2,7 +2,7 @@ from nltk.stem import PorterStemmer
 
 stemmer = PorterStemmer()
 
-words = ["grip", "organ", "fast", "horse", "despair"]
+words = ["searching", "searched", "searches", "horse"]
 
 for word in words:
 	print(word, " -> ", stemmer.stem(word))
